@@ -57,10 +57,10 @@ header nav ul li a {
 }
 
 .hero {
-    background-image: url("images/hero-image.jpg");
+    background-image: url("images/hero-image3.jpg");
     position: relative;
     width: 100vw;
-    height: 50vh;
+    height: 40vh;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -71,13 +71,46 @@ header nav ul li a {
 
 .hero-content {
     position: relative;
-    width: 35%;
+    width: 100%;
     text-align: right;
     margin: 3.5%;
 }
 
 .hero h2 {
-    font-size: 2rem;
-    font-weight: 200;
+    font-size: 30px;
+    font-weight: lighter;
+    width: fit-content;
+    padding: 15px;
+    float: right;
     color: var(--light);
+    background-color: var(--dark-teal);
+}
+
+.flex-row {
+    display: flex;
+}
+
+.about {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.my-photo {
+    width: 100%;
+    overflow: auto;
+}
+
+.about h2 {
+    color: var(--dark-teal);
+    padding: 25px;
+}
+
+.about p {
+    padding: 25px;
+    font-size: 17px;
+    overflow: auto;
+    line-height: 1.3;
 }
