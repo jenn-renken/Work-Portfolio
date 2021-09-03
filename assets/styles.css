@@ -95,6 +95,8 @@ header nav ul li a {
     width: 100%;
     margin: 0 auto;
     display: flex;
+    flex-direction: row;
+    align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
 }
@@ -105,15 +107,50 @@ header nav ul li a {
     overflow: auto;
 }
 
-.about h2 {
+#about-me h2 {
     color: var(--dark-teal);
     padding: 25px;
+
 }
 
 .info {
     padding: 25px;
     font-size: 17px;
+    width: auto;
     overflow: auto;
     line-height: 1.3;
-    text-align: right;
+    text-align: center;
+    /* text-align: right; */
+}
+
+#work-experience {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#projects {
+
+}
+
+.first-project {
+    margin: 20px;
+    flex:1;
+}
+
+.first-project img {
+    width: 100;
+    overflow: auto;
+}
+
+/* Media query for tablets and smaller */
+@media screen and (max-width: 768px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
 }
