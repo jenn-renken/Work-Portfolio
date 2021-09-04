@@ -20,7 +20,7 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: -webkit-sticky;
+    /* position: -webkit-sticky; */
     position: sticky;
     top: 0;
 }
@@ -51,7 +51,6 @@ header nav ul {
 
 header nav ul li a {
     padding: 10px 15px;
-    font-weight: lighter;
     font-size: 1.55vw;
     color: var(--dark-teal);
 }
@@ -100,11 +99,13 @@ section {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .my-photo {
-    width: 50%;
-    padding: 10%;
+    width: 60%;
+    border: 5px solid var(--teal);
     overflow: auto;
 }
 
@@ -125,30 +126,60 @@ section {
 
 #work-experience {
     width: 100%;
-    /* margin: 0 auto; */
+    margin: 0 auto;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    padding-bottom: 20px;
+    /* flex-direction: row; */
+    /* align-items: center;
+    justify-content: space-evenly; */
+}
+
+#work-experience h2 {
+    color: var(--dark-teal);
+    padding: 25px;
+}
+
+#run-buddy img {
+    width: 80%;
+    float: right;
+    margin: 100px;
+    overflow: auto;
+    border: 5px solid var(--teal);
 }
 
 .projects {
-    flex-direction: column;
-
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    /* align-items: flex-end;
+    justify-content: space-evenly; */
 }
 
-#first-project {
-    margin: 20px;
-    flex:1;
-}
 
-#first-project img {
-    width: 65%;
-    overflow: auto;
-}
-
-#project img {
+#horiseon img {
     width: 50%;
     overflow: auto;
+    border: 5px solid var(--teal);
+}
+
+#place-holder {
+    width: 50%;
+    overflow: auto;
+    background: var(--light);
+    border: 5px solid var(--teal);
+}
+
+#contact-info {
+    width: 100%;
+    color: var(--dark-teal);
+    padding-top: 40px;
+    margin: 0 auto;
+    padding-bottom: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
 
 /* Media query for tablets and smaller */

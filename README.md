@@ -1,8 +1,7 @@
 # work-portfolio
 
 ## Features
-- responsive design
-- navigation with link to sections
-- links to past work
-- images
-- contact info
+- Navigation with links to sections
+- About me section with bio and image
+- Work experience section with images that link to past projects
+- Responsive design using flexbox and media queries 
