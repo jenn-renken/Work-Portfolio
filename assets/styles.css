@@ -138,8 +138,8 @@ section {
     margin: 25px;
 }
 
-#run-buddy img {
-    width: 80%;
+#cocktail img {
+    width: 75%;
     float: right;
     margin: 100px;
     overflow: auto;
@@ -156,25 +156,24 @@ section {
 
 
 #horiseon img {
-    width: 55%;
+    width: 50%;
     overflow: auto;
     border: 5px solid var(--teal);
-    margin-left: 340px;
+    margin-left: 400px;
 }
 
-#place-holder {
-    width: 65%;
+#run-buddy img {
+    width: 60%;
     overflow: auto;
     background: var(--light);
     border: 5px solid var(--teal);
-    margin-right: 100px;
 }
 
-#place-holder h3 {
+/* #place-holder h3 {
     color: var(--dark-teal);
     text-align: center;
     padding-top: 70px;
-}
+} */
 
 #contact-info {
     width: 100%;
